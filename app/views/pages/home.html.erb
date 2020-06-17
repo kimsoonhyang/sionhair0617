@@ -1,0 +1,5 @@
+<% if user_signed_in? %> <%# 만약 유저가 로그인 했으면 %>
+  <%= link_to "サインアウト", destroy_user_session_path, method: :delete %>
+<% end %> <%# 사인아웃 단추를 표사할것 %>
+<p>このページは仮のトップページです。</p>
+<%= link_to "仮のボタンです", "#", class: "btn btn-primary" %>

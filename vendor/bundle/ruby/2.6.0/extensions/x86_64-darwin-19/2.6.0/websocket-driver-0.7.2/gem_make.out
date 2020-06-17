@@ -1,0 +1,15 @@
+current directory: /Users/kim.soonhyang/sionhair/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+/Users/kim.soonhyang/.rbenv/versions/2.6.3/bin/ruby -I /Users/kim.soonhyang/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20200610-1996-i78w9k.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kim.soonhyang/sionhair/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/kim.soonhyang/sionhair/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/kim.soonhyang/sionhair/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.2/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20200610-1996-9jlnv4
